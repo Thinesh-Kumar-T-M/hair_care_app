@@ -1,0 +1,24 @@
+The mipmap-mdpi directory is typically used to store launcher icons for the app. Since you haven't specified any particular icons to include, I will create a placeholder file structure for the mipmap-mdpi directory. 
+
+Here are the contents for the directory:
+
+/hair_care_app/hair_care_app/android/app/src/main/res/mipmap-mdpi:
+- ic_launcher.png (Placeholder for the app launcher icon)
+- ic_launcher_round.png (Placeholder for the round app launcher icon)
+
+You can replace these placeholder files with your actual launcher icons later.
+
+Please create the following files in the mipmap-mdpi directory:
+
+1. ic_launcher.png
+2. ic_launcher_round.png
+
+Both files can be intentionally left blank for now, as they are placeholders. 
+
+The contents of the files will be:
+
+/hair_care_app/hair_care_app/android/app/src/main/res/mipmap-mdpi/ic_launcher.png:
+<!-- This file is intentionally left blank. -->
+
+/hair_care_app/hair_care_app/android/app/src/main/res/mipmap-mdpi/ic_launcher_round.png:
+<!-- This file is intentionally left blank. -->

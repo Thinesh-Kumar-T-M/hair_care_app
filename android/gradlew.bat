@@ -1,10 +1,15 @@
 @echo off
 rem Gradle wrapper script for Windows
 
-set DIR=%~dp0
-if "%DIR%"=="" set DIR=.
+set DIRNAME=%~dp0
+if "%DIRNAME%"=="" set DIRNAME=.
 
-set WRAPPER_JAR=%DIR%gradle\wrapper\gradle-wrapper.jar
-set GRADLE_USER_HOME=%DIR%\.gradle
+set GRADLE_HOME=%DIRNAME%gradle\wrapper\gradle-wrapper.jar
+set JAVA_HOME=C:\Program Files\Java\jdk1.8.0_251
 
-java -jar "%WRAPPER_JAR%" %*
+if not exist "%GRADLE_HOME%" (
+    echo "Gradle wrapper jar not found. Please ensure it is present in the gradle/wrapper directory."
+    exit /b 1
+)
+
+java -jar "%GRADLE_HOME%" %*

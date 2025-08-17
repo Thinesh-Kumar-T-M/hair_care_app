@@ -1,0 +1,5 @@
+The `/hair_care_app/hair_care_app/android/app/src/main/res/mipmap-hdpi` directory is intended to contain launcher icon resources for the app. Since this is a directory, it does not contain any specific file contents. You can place your launcher icon images here, typically named `ic_launcher.png` or similar.
+
+Here is a comment indicating that this directory is intentionally left blank for now:
+
+# This directory is intentionally left blank. Place launcher icon images here.
